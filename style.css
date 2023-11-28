@@ -1,0 +1,82 @@
+:root {
+  --nav-color: #7341a4;
+  --dark-purple: #ad79e0;
+  --light-purple: #d5c0ea;
+  --hover-color: rgb(149, 56, 166);
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  background-color: var(--nav-color);
+}
+
+header h1 {
+  background-color: var(--dark-purple);
+  color: black;
+}
+
+.header-tag {
+  background-color: var(--dark-purple);
+}
+
+main {
+  background-color: var(--light-purple);
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem;
+}
+
+.bio {
+  text-align: justify;
+  width: 45vw;
+}
+
+.picture img {
+  align-items: center;
+  width: 30vw;
+  margin-left: 10rem;
+}
+
+footer {
+  background-color: var(--light-purple);
+  overflow: hidden;
+}
+
+hr {
+  margin-top: 90px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--nav-color);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form input,
+textarea {
+  width: 40%;
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: black;
+  border: 2px solid black;
+  background: White;
+  border-radius: 1rem;
+  resize: none;
+}
